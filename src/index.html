@@ -12,11 +12,17 @@
       cairo
     </pre>
     <form>
+      <label for="lat">Enter a Latitude:</label>
+      <input id="lat" type="text" name="latitude">
+      <label for="long">Enter a Longitude:</label>
+      <input id="long" type="text" name="longitude">
       <label for="location">Enter a location:</label>
       <input id="location" type="text" name="location">
       <button type="submit" class="btn-success" id="weatherLocation">Get Current Temperature and Humidity</button>
     </form>
+
     <p id="showResponse"></p>
+    <div id="map"></div>
   </div>
 </body>
 </html>
